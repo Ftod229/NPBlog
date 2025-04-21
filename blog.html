@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мой блог</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .post {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #fff;
+        }
+        .post h2 {
+            margin-top: 0;
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .content {
+            line-height: 1.6;
+            margin: 15px 0;
+            white-space: pre-line; /* Сохраняем форматирование текста */
+        }
+        .content h2 {
+            font-size: 1.5em;
+            margin: 1em 0 0.5em 0;
+            border-bottom: none;
+        }
+        .content ul {
+            margin: 1em 0;
+            padding-left: 2em;
+        }
+        .content li {
+            margin: 0.5em 0;
+        }
+        .content a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .content a:hover {
+            text-decoration: underline;
+        }
+        .content br {
+            display: block;
+            margin: 0.5em 0;
+        }
+        .content p {
+            text-align: right;
+        }
+        .date {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 15px;
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+        }
+        .blog-image {
+        max-width: 100%;
+        height: auto;
+        margin: 15px 0;
+        display: block;
+        }
+        .content img {
+        max-width: 100%;
+        height: auto;
+        margin: 15px 0;
+        display: block;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .content .code-block {
+        background: #f5f5f5;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 15px;
+        margin: 15px 0;
+        position: relative;
+        font-family: 'Consolas', 'Monaco', monospace;
+        font-size: 14px;
+        line-height: 1.4;
+        max-height: 400px;
+        overflow-x: auto;
+        white-space: pre;
+    }
+    .content .code-block::before {
+        content: attr(data-language);
+        position: absolute;
+        top: -12px;
+        right: 10px;
+        background: #fff;
+        padding: 0 5px;
+        font-size: 12px;
+        color: #666;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+    }
+    .content span[style^="font-size"] {
+        display: inline-block;
+        line-height: 1.4;
+    }
+    .content .blog-image {
+        display: block;
+        margin: 15px 0;
+        max-width: 100%;
+        height: auto;
+    }
+    .content .blog-image[style*="%"] {
+        width: 100%;
+        max-width: none;
+    }
+    .content .media-container {
+        position: relative;
+        margin: 15px 0;
+        width: 100%;
+    }
+    .content .media-container iframe,
+    .content .media-container audio {
+        border: none;
+        max-width: 100%;
+    }
+    .content .media-container[style*="%"] {
+        width: 100%;
+        max-width: none;
+    }
+    .content sup, .content sub {
+        font-size: 0.75em;
+        line-height: 0;
+    }
+    .content sup {
+        vertical-align: super;
+    }
+    .content sub {
+        vertical-align: sub;
+    }
+    </style>
+</head>
+<body>
+
+    <h1>Мой блог</h1>
+
+    <main></main>
+
+</body>
+</html>
